@@ -147,7 +147,6 @@ controlStyles:
     styles:
       - Padding=$TrayPadding
       - CornerRadius=7
-      - MaxWidth=Auto
   - target: SystemTray.OmniButton#NotificationCenterButton
     styles:
       - Padding=2,4,4.5,4
@@ -171,7 +170,6 @@ controlStyles:
   - target: Taskbar.Gripper#GripperControl
     styles:
       - Width=Auto
-      - MinWidth=Auto
   - target: SystemTray.SystemTrayFrame
     styles:
       - HorizontalAlignment=Right
@@ -189,7 +187,6 @@ controlStyles:
       - Padding=0
       - RenderTransform:=<TranslateTransform X="5" Y="2" />
       - Width=Auto
-      - MinWidth=Auto
   - target: TextBlock#DateInnerTextBlock
     styles:
       - Visibility=1
@@ -267,7 +264,7 @@ controlStyles:
       - CornerRadius:=$CornerRadius
   - target: SearchUx.SearchUI.SearchButtonControl
     styles:
-      - MaxWidth=Auto
+      - Width=Auto
       - Margin=-1,0,-1,0
       - Padding=$TrayPadding
       - CornerRadius=7
@@ -319,8 +316,6 @@ controlStyles:
     styles:
       - HorizontalAlignment=Center
       - Width=Auto
-      - MinWidth:=Auto
-      - MaxWidth:=Auto
       - Padding=1,0,1,0
   - target: StackPanel#SystemTrayFrameGrid, Grid#SystemTrayFrameGrid
     styles:
