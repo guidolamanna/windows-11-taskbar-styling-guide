@@ -76,7 +76,7 @@ controlStyles:
   - target: Rectangle#BackgroundStroke
     styles:
       - Fill=Transparent
-  - target: Grid#IconPanel, Taskbar.TaskListButtonPanel
+  - target: Taskbar.TaskListButtonPanel
     styles:
       - MinWidth=55
   - target: Grid#IconPanel, Taskbar.TaskListLabeledButtonPanel
@@ -85,7 +85,7 @@ controlStyles:
   - target: SearchUx.SearchUI.SearchButtonControl > Grid > SearchUx.SearchUI.SearchIconButton > SearchUx.SearchUI.SearchButtonRootGrid#SearchBoxButtonRootPanel
     styles:
       - MinWidth=55
-  - target: Grid#IconPanel@CommonStates > Border#BackgroundElement, Taskbar.TaskListButtonPanel@CommonStates > Grid > Border#BackgroundElement, Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
+  - target: Taskbar.TaskListButtonPanel@CommonStates > Grid > Border#BackgroundElement, Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
     styles:
       - CornerRadius=0
       - Margin=0,5.5,0,5.5
@@ -175,7 +175,7 @@ controlStyles:
       - Margin@ActivePointerOver=0,-5,0,-5
       - Margin@ActivePressed=0,-5,0,-5
       - Margin@ActiveNormal=0,-5,0,-5
-  - target: Grid#IconPanel@CommonStates > Border#BackgroundElement, Taskbar.TaskListButtonPanel@CommonStates > Grid > Border#BackgroundElement, Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
+  - target: Taskbar.TaskListButtonPanel@CommonStates > Grid > Border#BackgroundElement, Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
     styles:
       - // [TaskView and Start ICON BG]
       - Canvas.ZIndex=0
@@ -184,7 +184,7 @@ controlStyles:
       - Background:=$IconBackground
       - Background@InactivePointerOver:=$ActiveBackground
       - BorderThickness=0
-  - target: Grid#IconPanel@CommonStates, Taskbar.TaskListButtonPanel@CommonStates
+  - target: Taskbar.TaskListButtonPanel@CommonStates
     styles:
       - Canvas.ZIndex=0
       - Width@InactivePointerOver=59

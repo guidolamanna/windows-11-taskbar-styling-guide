@@ -416,7 +416,7 @@ controlStyles:
     styles:
       - Visibility=Collapsed
 # Taskbar icon styles
-  - target: Grid#IconPanel, Taskbar.TaskListButtonPanel
+  - target: Taskbar.TaskListButtonPanel
     styles:
       - Width=45
       - Height=60
@@ -1135,7 +1135,7 @@ controlStyles:
     styles:
       - Visibility=Collapsed
 # Taskbar icon styles
-  - target: Grid#IconPanel, Taskbar.TaskListButtonPanel
+  - target: Taskbar.TaskListButtonPanel
     styles:
       - Width=45
       - Height=60
