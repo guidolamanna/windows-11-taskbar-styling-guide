@@ -277,11 +277,14 @@ controlStyles:
     styles:
       - Background=Transparent
       - CornerRadius=$OuterRadius
-      - BorderBrush:=$ThemeOutBorder
+      - BorderThickness=0
       - // Alt + Tab View Outer Background
   - target: WindowsInternal.ComposableShell.Experiences.Switcher.AltTab > Grid#ModalRootGrid > Border#BackgroundElement > WindowsInternal.ComposableShell.Experiences.Switcher.SwitchItemList
     styles:
       - Background:=$ThemeBlur
+      - CornerRadius=$OuterRadius
+      - BorderThickness=1
+      - BorderBrush:=$ThemeOutBorder
       - // Alt + Tab View Inner Background
   - target: Grid#ConfirmatorMainGrid
     styles:

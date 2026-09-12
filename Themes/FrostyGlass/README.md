@@ -371,12 +371,14 @@ controlStyles:
   - target: WindowsInternal.ComposableShell.Experiences.Switcher.AltTab > Windows.UI.Xaml.Controls.Grid#ModalRootGrid > Windows.UI.Xaml.Controls.Border#BackgroundElement
     styles:
       - Background=Transparent
-      - BorderThickness:=$BorderThickness
-      - BorderBrush:=$BorderBrush
+      - BorderThickness=0
       - CornerRadius:=$CornerRadius
   - target: WindowsInternal.ComposableShell.Experiences.Switcher.AltTab > Windows.UI.Xaml.Controls.Grid#ModalRootGrid > Windows.UI.Xaml.Controls.Border#BackgroundElement > WindowsInternal.ComposableShell.Experiences.Switcher.SwitchItemList
     styles:
       - Background:=$Background
+      - BorderThickness:=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - CornerRadius:=$CornerRadius
   - target: Taskbar.TaskbarFrame
     styles:
       - Width=Auto
