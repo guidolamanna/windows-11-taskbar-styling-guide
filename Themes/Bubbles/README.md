@@ -86,8 +86,8 @@ controlStyles:
       - Fill@RequestingAttentionPointerOver:=<SolidColorBrush Opacity="0.4" Color="Orange" />
       - StrokeThickness@RequestingAttention=2.5
       - StrokeThickness@RequestingAttentionPointerOver=2.5
-      - Height=39
-      - Width=39
+      - Height=38
+      - Width=38
       - MinWidth=Auto
   - target: Grid#IconPanel > TextBlock#LabelControl, Taskbar.TaskListLabeledButtonPanel > TextBlock#LabelControl
     styles:
