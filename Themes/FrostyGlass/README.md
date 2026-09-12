@@ -383,7 +383,6 @@ controlStyles:
     styles:
       - Width=Auto
       - HorizontalAlignment=Center
-      - Margin=Auto
   - target: Taskbar.TaskbarFrame > Grid#RootGrid
     styles:
       - Background:=$Background
