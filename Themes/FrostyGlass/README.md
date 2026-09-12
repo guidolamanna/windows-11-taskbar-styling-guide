@@ -180,7 +180,7 @@ controlStyles:
   - target: Windows.UI.Xaml.Controls.Grid#AugmentedEntryPointContentGrid
     styles:
       - Margin=4,0,0,0
-      - HorizontalAlignment=Auto
+      - HorizontalAlignment=Center
   - target: TextBlock#TimeInnerTextBlock
     styles:
       - FontSize=13
