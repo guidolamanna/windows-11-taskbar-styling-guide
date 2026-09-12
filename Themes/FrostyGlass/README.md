@@ -317,10 +317,10 @@ controlStyles:
       - Visibility=0
   - target: Taskbar.TaskbarFrame
     styles:
-      - HorizontalAlignment=Auto
+      - HorizontalAlignment=Center
       - Width=Auto
-      - MinWidth:=500
-      - MaxWidth:=900
+      - MinWidth:=Auto
+      - MaxWidth:=Auto
       - Padding=1,0,1,0
   - target: StackPanel#SystemTrayFrameGrid, Grid#SystemTrayFrameGrid
     styles:
